@@ -1,0 +1,19 @@
+1.
+	Die Ordner enthalten abgegebene Aufgaben, normalerweise sowohl eine .pdf für die Theorieaufgaben,
+	als auch eine .asm für die Praxisaufgaben.
+	Diese sind nicht immer richtig aber normalerweise ist markiert wenn ein Code nicht funktionieren sollte.
+	
+2.
+	compiler.sh ist das geilste Tool für assemblercodes.
+	Normalerweise muss der .asm code ja jedes mal aufwändig compiliert und mit dem wrapper gelinked werden,
+	mit dem Tool kann das in einem schritt simpel gemacht werden.
+	Das Terminal muss in den Ordner mit dem .asm Code, dem wrapper.asm und dem compiler.sh navigiert werden.
+	Dann wird im Terminal nurnoch folgendes eingeben, wobei bis zu zwei Eingaben mit Übergeben werden können:
+		bash compiler.sh "filename" "optional Variable" "optional Variable 2"
+	So kann der Code, z.B. in vscode, mit einmal speichern und einem einzigen Befehl im Terminal ausprobiert werden.
+	Bei Bedarf kann im Bash script, Line 4, auch noch ein weiteres Dollar-Zahl Zeichen eingefügt werden um weitere Variablen übergeben zu können.
+	
+3.
+	Auf Git-Hub gibts ein wichtiges NASM-Cheatsheet:
+		https://github.com/Siedler/NASM-Assembly-Cheat-Sheet/blob/master/Cheat-Sheet.md
+
